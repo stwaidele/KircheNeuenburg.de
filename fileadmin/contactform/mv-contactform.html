@@ -1,0 +1,69 @@
+<!-- ###TEMPLATE_FORM1### begin -->
+
+###ERROR###
+<form action="###REL_URL###" id="projektform" method="post" class="formhandler">
+<dl>
+<dt class="pflicht"><label for="vorname">Vorname</label></dt><dd><input type="text" name="formhandler[vorname]" id="vorname" value="###value_vorname###" /></dd>
+<dt class="pflicht"><label for="nachname">Nachname</label></dt><dd><input type="text" name="formhandler[nachname]" id="nachname" value="###value_nachname###" /></dd>
+<dt class="pflicht"><label for="ort">Wohnort</label></dt><dd><input type="text" name="formhandler[ort]" id="ort" value="###value_ort###" /></dd>
+<dt class="pflicht"><label for="email">E-Mail</label></dt><dd><input type="text" name="formhandler[email]" id="email" value="###value_email###" /></dd>
+</dl>
+<input type="submit" value="Anmelden" ###submit_nextStep### />
+</form>
+<!-- ###TEMPLATE_FORM1### end -->
+ 
+<!-- ###TEMPLATE_SUBMITTEDOK### begin -->
+<h2>Anmeldung erfolgreich!</h2>
+<p>Hiermit bestätigen wir Ihre Anmeldung für das Männervesper am 1. März 2013
+</p><p>
+Herzlichen Dank, bis bald!</p>
+
+<h3>Bitte überprüfen Sie nochmals Ihre Daten:</h3>
+
+<p>Teilnehmer: ###value_nachname###, ###value_vorname###<br />
+Ort: ###value_plz### ###value_ort###<br />
+E-Mail: ###value_email###<br />
+</p>
+
+<!-- ###TEMPLATE_SUBMITTEDOK### end -->
+ 
+<!-- ###TEMPLATE_EMAIL_ADMIN_PLAIN### begin -->
+Die folgende Männervesper-Anmeldung ist eingegangen:
+===================================================
+
+###value_nachname###; ###value_vorname###; ###value_ort###; ###value_email###
+
+
+Oder für Menschen lesbar:
+=========================
+
+Teilnehmer: ###value_nachname###, ###value_vorname###
+Ort: ###value_plz### ###value_ort###
+E-Mail: ###value_email###
+
+<!-- ###TEMPLATE_EMAIL_ADMIN_PLAIN### end -->
+
+
+<!-- ###TEMPLATE_EMAIL_USER_PLAIN### begin -->
+Anmeldebestätigung
+
+Hiermit bestätigen wir Ihre Anmeldung für das Männervesper am 1. März 2013
+
+Datum:   1. März 2013
+Uhrzeit: 19.30 Uhr 
+
+Ort:     Offizierscasino der dt. franz. Brigade "Circle Mixte"
+         Goethestr. 12
+         79379 Müllheim
+
+Kosten:  12€ ohne Getränke.
+
+
+Bitte überprüfen Sie nochmals Ihre Anmeldedaten:
+================================================
+
+Teilnehmer: ###value_nachname###, ###value_vorname###
+Ort: ###value_plz### ###value_ort###
+E-Mail: ###value_email###
+
+<!-- ###TEMPLATE_EMAIL_USER_PLAIN### end -->

@@ -1,0 +1,27 @@
+@charset "utf-8";
+/** contentbereich **/
+div#content { 
+	position:relative;
+	top:-36px; 
+	width: 100%; 
+	min-height: 30px; 
+}
+
+div#sidebar {
+	display: none; 
+	width: 1%; 
+	min-height: 50px;
+	float: left; 
+}
+div#article { 
+	margin-left: 2%;
+	width: 96%; 
+	min-height: 50px;
+	float: left; 
+}
+div#subnav { 
+	display:none;
+    width: 1%; 
+    min-height: 50px;
+    float: left; 
+}

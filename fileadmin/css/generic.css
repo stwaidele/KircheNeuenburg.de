@@ -1,0 +1,280 @@
+@charset "utf-8";
+
+* { 
+    margin: 0px; 
+    padding: 0px; 
+    border: 0px; }
+html { 
+/*    height: 100.2%; */
+}
+body {
+	text-align:center;
+	text-height:100%;
+    font: 1em "Ubuntu", "Tahoma", sans-serif;
+	font-weight:300;
+}
+hr {
+	width: 100%;
+	height: 1px;
+	border: 1px solid #000;
+
+}
+p{
+	margin-bottom: 0.9em;
+}
+p>strong{
+	margin-bottom: 0.9em;
+	font-weight:500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5{
+    font: 1.3em "Ubuntu", "Tahoma", sans-serif;
+	font-weight:500;
+    text-decoration: none;
+	margin-top: 0.9em;
+	margin-bottom: 0.4em;
+}
+h1{
+    font: 1.6em "Ubuntu", "Tahoma", sans-serif;
+}
+h2{
+    font: 1.3em "Ubuntu", "Tahoma", sans-serif;
+}
+
+ul {
+	list-style-type: disc;
+	list-style-position:outside;
+	margin-left: 2em;
+	margin-right: 4em;
+	
+}
+
+input {
+	padding: 3px;
+	border-color: #000;
+	border-style: solid;
+	border-width: 1px;	
+}
+input[type=submit] {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;	
+	padding-bottom: 10px;	
+	border-color: #000;
+	border-style: solid;
+	border-width: 1px;	
+}
+
+
+
+/**** GRUNDGERUEST ****/
+div#wrapper { 
+	background-color: #fff;
+	padding: 0%;
+	width: 94%;
+	max-width: 948px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+}
+
+/** kopfbereich **/
+.header_img {
+	position:relative;
+	width: 100%;
+	top: -2em;
+	z-index: 1;
+}
+
+div#head { 
+	width: 100%; 
+	height: auto; 
+}
+div#topnav { 
+    float: right;
+    margin-left: auto;
+    margin-right: 1%;
+	background-color: #fff;
+	position:relative;
+	top:1em;
+    z-index:2;
+}
+div#topnav ul {
+	margin: 0;
+}
+div#topnav ul>li{ 
+    display: inline;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: solid 1px #6ad;
+}
+div#topnav ul>li:last-child{ 
+    border-right: none;
+}
+div#topnav ul>li>a{
+    display: block;
+    font: 0.9em "Ubuntu", "Tahoma", sans-serif;
+	font-weight:500;
+    text-decoration: none;
+}
+div#topnav ul>li>a:hover{
+    background-color: #6ad;
+}
+div#mainnav-wrapper {
+	position:relative;
+	top:-35px; 
+    width: 100%;
+}
+div#mainnav { 
+    float: right;
+    margin-left: auto;
+}
+div#mainnav ul {
+	margin: 0;
+}
+div#mainnav ul>li{ 
+    display: inline;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+div#mainnav ul>li:last-child{ 
+    border-right: none;
+}
+div#mainnav ul>li>a{
+    display: block;
+    font: 1em "Ubuntu", "Tahoma", sans-serif;
+	font-weight:500;
+    text-decoration: none;
+}
+.clear {
+    clear: both;
+}
+
+div#subnav {
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+div#subnav ul {
+	list-style-type:none;
+	margin:0;
+	padding-left:0;	
+}
+div#subnav li>ul {
+	padding-left:15px;
+}
+
+div#subnav ul>li>a{
+    display: block;
+    font: 1em "Ubuntu", "Tahoma", sans-serif;
+	font-weight:500;
+    text-decoration: none;
+}
+div#subnav div.csc-default {
+	margin-top: 20px;
+	width: 100%;
+	border: #000 solid 1px;
+}
+div#subnav div.csc-default h1{
+	margin-top: 0px;
+	pagging-top: 0px;
+	font: 0.8em "Ubuntu", "Tahoma", sans-serif;
+	background-color: #000;
+	color: #fff;
+}
+
+
+/** footerbereich **/
+
+div#footer { 
+    clear:both;
+    width: 100%; 
+    min-height: 30px; 
+}
+
+
+/** Formulare **/
+form>dl>dt {
+   float: left;
+    clear: left;
+    width: 40%;
+    text-align: right;
+}
+form>dl>dt:after {
+	content: ":";
+}
+.pflicht {
+	font-weight: bold;
+}
+form>dl>dd {
+	margin: 0 0 0 45%;
+    padding: 0 0 0.5em 0;
+	width: 50%;
+}
+input[type=text] {
+   width: 100%;
+}
+input[type=submit] {
+   width: 100%;
+}
+textarea {
+   width: 100%;
+   height: 10em;
+   border: #000 solid 1px;
+}
+
+.warnung {
+	border: #a00 double 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+p>img {
+	width: 30%;
+	float:right;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+
+
+p.bodytext img {
+	width: 30%;
+	float:right;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+
+p.bodytext img.links {
+	width: 30%;
+	float:left;
+	margin-right: 1em;
+	margin-bottom: 1em;
+}
+
+p>img.artikelbild{
+	width: 60%;
+}
+a>img.artikelbild{
+	width: 60%;
+}
+img.hundert{
+	width: 100%;
+}
+p.bodytext img.zehn{
+	width: 10%;
+}
+
+p.bodytext img.hundert{
+	width: 100%;
+}

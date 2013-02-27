@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+ <data type="array">
+  <languageKey index="default" type="array">
+   <label index="error_vorname_required">Der Vorname des Kindes fehlt</label>
+   <label index="error_nachname_required">Der Nachname des Kindes fehlt</label>
+   <label index="error_erz-vorname_required">Ihr Vorname fehlt</label>
+   <label index="error_erz-nachname_required">Ihr Nachname fehlt</label>
+   <label index="error_gesch_required">Junge oder Mädchen?</label>
+   <label index="error_geb_required">Das Geburtsdatum des Kindes fehlt</label>
+   <label index="error_strasse_required">Die Adresse ist unvollständig</label>
+   <label index="error_plz_required">Die Adresse ist unvollständig</label>
+   <label index="error_ort_required">Die Adresse ist unvollständig</label>
+
+   <label index="error_erz-email_required">Ihre E-Mailadresse fehlt</label>
+   <label index="error_erz-email_email">Ihre E-Mailadresse ist ungültig</label>
+  </languageKey>
+ </data>
+</T3locallang>

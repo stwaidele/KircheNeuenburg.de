@@ -1,0 +1,59 @@
+@charset "utf-8";
+body {
+	background-color: #def;
+}
+hr {
+	border-style: solid;
+	border-color: #7a3;
+	background-color: #7a3;
+}
+h1,h2,h3,h4,h5 {
+    color: #000;
+}
+/**** GRUNDGERUEST ****/
+div#wrapper { 
+	background-color: #fff;
+}
+
+/** kopfbereich **/
+div#topnav { 
+	background-color: #fff;
+}
+div#topnav ul>li>a{
+    color: #7a3;
+}
+div#topnav ul>li>a:hover{
+    color: #fff;
+    background-color: #7a3;
+}
+div#mainnav-wrapper {
+    background-color: #7a3;
+}
+div#mainnav ul>li{ 
+    border-right: solid 1px #fff;
+    text-color: #fff;
+}
+div#mainnav ul>li>a{
+    color: #fff;
+}
+div#mainnav ul>li>a:hover{
+    color: #7a3;
+    background-color: #fff;
+}
+
+div#subnav ul>li>a{
+    color: #7a3;
+	border-bottom: 1px #7a3 solid;
+}
+div#subnav ul>li>a:hover{
+	background: #7a3;
+	color: #fff;
+}
+
+div#subnav div.csc-default {
+	border: #7a3 solid 1px;
+}
+div#subnav div.csc-default h1{
+	background-color: #7a3;
+	color: #fff;
+}
